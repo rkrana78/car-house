@@ -79,11 +79,11 @@ body {
     height: 80px;
     position: absolute;
     margin: 0 auto;
-    bottom: -10%;              /**10px**/
+    bottom: -35px;              /**10px**/
     left: 50%;
     width: 98%;
     z-index: 99;
-    transform: translate(-50%, -50%);
+    transform: translateX(-50%);
     
 }
 
@@ -94,7 +94,7 @@ body {
     font-size: 14px;
     line-height: 21px;
     margin-left: 20px;
-    margin-top: 10px;
+    
     letter-spacing: -0.1px;
     color: #0D0A19;
 }
@@ -136,16 +136,28 @@ body {
     margin-right: 6px;
 }
 
+.border-right {
+    border-right: 1px solid #d2d2d2;
+    height: 50px;
+    margin-top: 20px;
+}
 
-
+.extra {
+    margin-top: 15px;
+}
 @media screen and (max-width:767px){
+    
     .main-content h1 {
         font-size: 38px;
     }
     .main-content p {
         font-size: 16px;
     }
-    .main-footer {
-        
+    .main-footer{
+        height: 110px;
+    }
+    .custom-btn {
+        width: 90%;
+        padding: 12px 0;
     }
 }
