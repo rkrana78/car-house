@@ -144,7 +144,20 @@ body {
 
 .extra {
     margin-top: 15px;
+
 }
+
+
+/******Brand Section******/
+
+.brand {
+    margin-top: 100px;
+   
+}
+.brand img {
+    margin-right:px;
+}
+
 @media screen and (max-width:767px){
     
     .main-content h1 {
@@ -161,3 +174,5 @@ body {
         padding: 12px 0;
     }
 }
+
+
