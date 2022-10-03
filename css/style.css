@@ -151,12 +151,69 @@ body {
 /******Brand Section******/
 
 .brand {
-    margin-top: 100px;
-   
+    margin-top: 110px;
+    margin-bottom: 100px;
 }
 .brand img {
     margin-right:px;
 }
+
+.trending h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 36px;
+    letter-spacing: -0.1px;
+    color: #0D0A19;
+    margin-bottom: 40px;
+}
+
+.trending small {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #9A9EA7;
+}
+.trending h5 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    letter-spacing: -0.1px;
+    color: #5f6063;
+    margin-top: 15px;
+}
+.Button1 {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
+    color: #7963f0 !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    font-family: 'Inter';
+    font-style: normal !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    letter-spacing: -0.1px !important;
+}
+.Button2 {
+    background-color: #f5f6f7 !important;
+    color: #9a9ea7 !important;
+    border-radius: 8px !important;
+    font-weight: 500 !important;
+    font-family: 'Inter';
+    font-style: normal !important;
+    font-size: 14px !important;
+    line-height: 21px !important;
+    text-align: center !important;
+    letter-spacing: -0.1px !important;
+}
+
+
 
 @media screen and (max-width:767px){
     
@@ -172,6 +229,14 @@ body {
     .custom-btn {
         width: 90%;
         padding: 12px 0;
+    }
+
+    .brand {
+        margin-top: 370px;
+
+    }
+    .brand img {
+        margin-top: 25px;
     }
 }
 
