@@ -168,7 +168,15 @@ body {
     color: #0D0A19;
     margin-bottom: 40px;
 }
-
+.car-trending h4 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    margin-top: 10px;
+    color: #0D0A19;
+}
 .trending small {
     font-family: 'Inter';
     font-style: normal;
@@ -187,6 +195,7 @@ body {
     letter-spacing: -0.1px;
     color: #5f6063;
     margin-top: 15px;
+    margin-bottom: 12px;
 }
 .Button1 {
     background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
