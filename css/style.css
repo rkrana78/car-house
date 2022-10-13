@@ -243,6 +243,7 @@ body {
     line-height: 36px;
     letter-spacing: -0.1px;
     color: #0D0A19;
+    margin-bottom: 40px;
 }
 
 .arrow-area {
@@ -265,6 +266,51 @@ body {
     background: #F5F6F7;
     border-radius: 10px;
     padding: 10px !important;
+}
+
+.car-details p {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    color: #0D0A19;
+    margin-bottom: 0;
+    margin-top: 8px;
+}
+
+.pro-btn {
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700 !important;
+	font-size: 12px !important;
+	line-height: 18px !important;
+	text-align: center !important;
+	background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
+	border-radius: 8px !important;
+	color: #7963f0 !important;
+}
+
+.pro-btn1 {
+    font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700 !important;
+	font-size: 12px !important;
+	line-height: 18px !important;
+	text-align: center !important;
+    background: #F5F6F7;
+    border-radius: 8px;
+    color: #9A9EA7;
+}
+.car-slider {
+    width: 50%;
+}
+.car-model {
+    
+    margin: 0 20px 50px 0;
+    position: relative;
+    left: 0;
+    transition: 0.5s;
 }
 
 @media screen and (max-width:767px){
