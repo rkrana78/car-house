@@ -303,20 +303,52 @@ body {
     color: #9A9EA7;
 }
 .car-slider {
-    width: 50%;
+    width: 24%;
 }
-.car-wrapper {
-    display: flex;
-    
-}
+
 .car-model {
+    
     flex-direction: column;
-  align-items: center;
+    align-items: center;
     margin: 0 20px 50px 0;
     position: relative;
     left: 0;
     transition: 0.5s;
 }
+
+
+.swiper {
+    width: 100%;
+    height: 100%;
+  }
+
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
 
 @media screen and (max-width:767px){
     

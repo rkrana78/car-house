@@ -7,7 +7,10 @@
     <title>Document</title>
 
     <!-- Swiper CSS -->
-    <link rel="stylesheet" href="css/swiper-bundle.min.css">
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css"
+    />
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -201,60 +204,68 @@
         <div class="model-header">
           <h1>Find Car By Model</h1>
           <div class="arrow-area">
-            <p>1/6
-              <span id="icon"><img src="image/icon1.png" alt=""></span>
-              <span id="icon"><img src="image/icon2.png" alt=""></span>
+            <p>
+              
+              <span id="icon" class="prev"
+                ><img src="image/icon1.png" alt=""
+              /></span>
+              <span id="icon" class="next"
+                ><img src="image/icon2.png" alt=""
+              /></span>
             </p>
           </div>
         </div>
-        <div class="car-slider d-flex">
-          <div class="car-model text-center">
-            <img src="image/img2.png" alt="">
-            <div class="car-details">
-              <p>Sedan</p>
-              <button class="btn pro-btn">23,457 vehicles</button>
+        <div class="car-slider swiper">
+          <div class="swiper-wrapper">
+            <div class="car-model text-center swiper-slide">
+              <img src="image/img2.png" alt="" />
+              <div class="car-details">
+                <p>Sedan</p>
+                <button class="btn pro-btn">23,457 vehicles</button>
+              </div>
             </div>
-          </div>
 
-          <div class="car-model text-center">
-            <img src="image/img1.png" alt="">
-            <div class="car-details">
-              <p>Suv</p>
-              <button class="btn pro-btn1">23,457 vehicles</button>
+            <div class="car-model text-center swiper-slide">
+              <img src="image/img1.png" alt="" />
+              <div class="car-details">
+                <p>Suv</p>
+                <button class="btn pro-btn1">23,457 vehicles</button>
+              </div>
             </div>
-          </div>
 
-          <div class="car-model text-center">
-            <img src="image/img2.png" alt="">
-            <div class="car-details">
-              <p>Sed</p>
-              <button class="btn pro-btn1">23,457 vehicles</button>
+            <div class="car-model text-center swiper-slide">
+              <img src="image/img2.png" alt="" />
+              <div class="car-details">
+                <p>Sed</p>
+                <button class="btn pro-btn1">23,457 vehicles</button>
+              </div>
             </div>
-          </div>
 
-          <div class="car-model text-center">
-            <img src="image/img3.png" alt="">
-            <div class="car-details">
-              <p>Sedan</p>
-              <button class="btn pro-btn1">23,457 vehicles</button>
+            <div class="car-model text-center swiper-slide">
+              <img src="image/img3.png" alt="" />
+              <div class="car-details">
+                <p>Sedan</p>
+                <button class="btn pro-btn1">23,457 vehicles</button>
+              </div>
             </div>
-          </div>
 
-          <div class="car-model text-center">
-            <img src="image/img2.png" alt="">
-            <div class="car-details">
-              <p>Sedan</p>
-              <button class="btn pro-btn1">23,457 vehicles</button>
+            <div class="car-model text-center swiper-slide">
+              <img src="image/img2.png" alt="" />
+              <div class="car-details">
+                <p>Sedan</p>
+                <button class="btn pro-btn1">23,457 vehicles</button>
+              </div>
             </div>
-          </div>
 
-          <div class="car-model text-center">
-            <img src="image/img3.png" alt="">
-            <div class="car-details">
-              <p>Sen</p>
-              <button class="btn pro-btn1">23,457 vehicles</button>
+            <div class="car-model text-center swiper-slide">
+              <img src="image/img3.png" alt="" />
+              <div class="car-details">
+                <p>Sen</p>
+                <button class="btn pro-btn1">23,457 vehicles</button>
+              </div>
             </div>
           </div>
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </section>
@@ -285,12 +296,13 @@
       </div>
       
     </section> -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
     <script src="js/slider.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
       crossorigin="anonymous"
     ></script>
-    
   </body>
 </html>
