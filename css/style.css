@@ -1,378 +1,454 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 body {
-    font-family: 'Inter' !important;
+  font-family: "Inter" !important;
 }
 .nav-link {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 16px;
-    line-height: 24px;
-    letter-spacing: -0.1px;
-    color: #0D0A19;
-    margin-left: 20px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: -0.1px;
+  color: #0d0a19;
+  margin-left: 20px;
 }
 .signUp {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.1px;
-    color: #9A9EA7;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  color: #9a9ea7;
 }
 
 .signUp img {
-    background: #F5F6F7;
-    border-radius: 10px;
-    height: 25px;
-    width: 30px;
-    padding: 5px 8px;
-    margin-right: 8px;
+  background: #f5f6f7;
+  border-radius: 10px;
+  height: 25px;
+  width: 30px;
+  padding: 5px 8px;
+  margin-right: 8px;
 }
-
 
 /******main section******/
 
 .main-section {
-    background-image: url('../image/car.png');
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 560px;
-    position: relative;
+  background-image: url("../image/car.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 560px;
+  position: relative;
 }
 .main-content {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
-    color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff;
 }
 .main-section h1 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 64px;
-    line-height: 74px;
-    letter-spacing: -0.304762px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 64px;
+  line-height: 74px;
+  letter-spacing: -0.304762px;
 }
 
 .main-content p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 20px;
-    line-height: 27px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 27px;
 }
 
 .main-footer {
-    background: #FFFFFF;
-    box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.15);
-    border-radius: 8px;
-    max-width: 945px;
-    height: 80px;
-    position: absolute;
-    margin: 0 auto;
-    bottom: -35px;              /**10px**/
-    left: 50%;
-    width: 98%;
-    z-index: 99;
-    transform: translateX(-50%);
-    
+  background: #ffffff;
+  box-shadow: 0px 3px 4px rgba(153, 155, 168, 0.15);
+  border-radius: 8px;
+  max-width: 945px;
+  height: 80px;
+  position: absolute;
+  margin: 0 auto;
+  bottom: -35px; /**10px**/
+  left: 50%;
+  width: 98%;
+  z-index: 99;
+  transform: translateX(-50%);
 }
 
 .main-footer p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 21px;
-    margin-left: 20px;
-    
-    letter-spacing: -0.1px;
-    color: #0D0A19;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 20px;
+
+  letter-spacing: -0.1px;
+  color: #0d0a19;
 }
 
 .form-select {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 21px;
-    margin-left: 10px;
-    margin-top: 10px;
-    letter-spacing: -0.1px;
-    color: #0D0A19;
-    border: none !important;
-    margin-top: -15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  margin-left: 10px;
+  margin-top: 10px;
+  letter-spacing: -0.1px;
+  color: #0d0a19;
+  border: none !important;
+  margin-top: -15px;
 }
 .withoutP {
-    margin-top: 45px;
+  margin-top: 45px;
 }
 
 .custom-btn {
-    background: #7963F0;
-    border-radius: 10px;
-    padding: 7px 18px;
-    border: none;
-    color: #fff;
-    margin-top: 30px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.1px;
+  background: #7963f0;
+  border-radius: 10px;
+  padding: 7px 18px;
+  border: none;
+  color: #fff;
+  margin-top: 30px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.1px;
 }
 .custom-btn img {
-    margin-top: -3px;
-    width: 15px;
-    margin-right: 6px;
+  margin-top: -3px;
+  width: 15px;
+  margin-right: 6px;
 }
 
 .border-right {
-    border-right: 1px solid #d2d2d2;
-    height: 50px;
-    margin-top: 20px;
+  border-right: 1px solid #d2d2d2;
+  height: 50px;
+  margin-top: 20px;
 }
 
 .extra {
-    margin-top: 15px;
-
+  margin-top: 15px;
 }
-
 
 /******Brand Section******/
 
 .brand {
-    margin-top: 110px;
-    margin-bottom: 100px;
+  margin-top: 110px;
+  margin-bottom: 100px;
 }
 .brand img {
-    margin-right:px;
+  margin-right: px;
 }
 
 .trending h1 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 36px;
-    letter-spacing: -0.1px;
-    color: #0D0A19;
-    margin-bottom: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.1px;
+  color: #0d0a19;
+  margin-bottom: 40px;
 }
 .car-trending h4 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 27px;
-    margin-top: 10px;
-    color: #0D0A19;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  margin-top: 10px;
+  color: #0d0a19;
 }
 .trending small {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 21px;
-    letter-spacing: -0.1px;
-    color: #9A9EA7;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  color: #9a9ea7;
 }
 .trending h5 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    letter-spacing: -0.1px;
-    color: #5f6063;
-    margin-top: 15px;
-    margin-bottom: 12px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  color: #5f6063;
+  margin-top: 15px;
+  margin-bottom: 12px;
 }
 .Button1 {
-    background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
-    color: #7963f0 !important;
-    border-radius: 8px !important;
-    font-weight: 500 !important;
-    font-family: 'Inter';
-    font-style: normal !important;
-    font-size: 14px !important;
-    line-height: 21px !important;
-    text-align: center !important;
-    letter-spacing: -0.1px !important;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),
+    #7963f0 !important;
+  color: #7963f0 !important;
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+  font-family: "Inter";
+  font-style: normal !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  text-align: center !important;
+  letter-spacing: -0.1px !important;
 }
 .Button2 {
-    background-color: #f5f6f7 !important;
-    color: #9a9ea7 !important;
-    border-radius: 8px !important;
-    font-weight: 500 !important;
-    font-family: 'Inter';
-    font-style: normal !important;
-    font-size: 14px !important;
-    line-height: 21px !important;
-    text-align: center !important;
-    letter-spacing: -0.1px !important;
+  background-color: #f5f6f7 !important;
+  color: #9a9ea7 !important;
+  border-radius: 8px !important;
+  font-weight: 500 !important;
+  font-family: "Inter";
+  font-style: normal !important;
+  font-size: 14px !important;
+  line-height: 21px !important;
+  text-align: center !important;
+  letter-spacing: -0.1px !important;
 }
 
 .model {
-    margin: 100px 0;
-} 
+  margin: 100px 0;
+}
 .model-header {
-    width: 98%;
-    height: 60px;
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px 0;
+  width: 98%;
+  height: 60px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px 0;
 }
 
 .model-header h1 {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 28px;
-    line-height: 36px;
-    letter-spacing: -0.1px;
-    color: #0D0A19;
-    margin-bottom: 40px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.1px;
+  color: #0d0a19;
+  margin-bottom: 40px;
 }
 
 .arrow-area {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: right;
-    color: #9A9EA7;
-    margin-top: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: right;
+  color: #9a9ea7;
+  margin-top: 15px;
 }
 .model-header p span {
-    margin:0px 5px;
-    width: 30px;
-    height: 30px;
+  margin: 0px 5px;
+  width: 30px;
+  height: 30px;
 }
 
 .arrow-area img {
-    background: #F5F6F7;
-    border-radius: 10px;
-    padding: 10px !important;
+  background: #f5f6f7;
+  border-radius: 10px;
+  padding: 10px !important;
 }
 
 .car-details p {
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 27px;
-    color: #0D0A19;
-    margin-bottom: 0;
-    margin-top: 8px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0d0a19;
+  margin-bottom: 0;
+  margin-top: 8px;
 }
 
 .pro-btn {
-    font-family: 'Inter';
-	font-style: normal;
-	font-weight: 700 !important;
-	font-size: 12px !important;
-	line-height: 18px !important;
-	text-align: center !important;
-	background: linear-gradient(0deg, rgba(255, 255, 255, 0.85), rgba(255, 255, 255, 0.85)), #7963f0 !important;
-	border-radius: 8px !important;
-	color: #7963f0 !important;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  text-align: center !important;
+  background: linear-gradient(
+      0deg,
+      rgba(255, 255, 255, 0.85),
+      rgba(255, 255, 255, 0.85)
+    ),
+    #7963f0 !important;
+  border-radius: 8px !important;
+  color: #7963f0 !important;
 }
 
 .pro-btn1 {
-    font-family: 'Inter';
-	font-style: normal;
-	font-weight: 700 !important;
-	font-size: 12px !important;
-	line-height: 18px !important;
-	text-align: center !important;
-    background: #F5F6F7;
-    border-radius: 8px;
-    color: #9A9EA7;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700 !important;
+  font-size: 12px !important;
+  line-height: 18px !important;
+  text-align: center !important;
+  background: #f5f6f7;
+  border-radius: 8px;
+  color: #9a9ea7;
 }
 .car-slider {
-    width: 24%;
+  width: 24%;
 }
 
 .car-model {
-    
-    flex-direction: column;
-    align-items: center;
-    margin: 0 20px 50px 0;
-    position: relative;
-    left: 0;
-    transition: 0.5s;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 20px 50px 0;
+  position: relative;
+  left: 0;
+  transition: 0.5s;
 }
-
 
 .swiper {
-    width: 100%;
-    height: 100%;
-  }
-
-  .swiper-slide {
-    text-align: center;
-    font-size: 18px;
-    background: #fff;
-
-    /* Center slide text vertically */
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    -webkit-box-pack: center;
-    -ms-flex-pack: center;
-    -webkit-justify-content: center;
-    justify-content: center;
-    -webkit-box-align: center;
-    -ms-flex-align: center;
-    -webkit-align-items: center;
-    align-items: center;
-  }
-
-  .swiper-slide img {
-    display: block;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-
-
-@media screen and (max-width:767px){
-    
-    .main-content h1 {
-        font-size: 38px;
-    }
-    .main-content p {
-        font-size: 16px;
-    }
-    .main-footer{
-        height: 110px;
-    }
-    .custom-btn {
-        width: 90%;
-        padding: 12px 0;
-    }
-
-    .brand {
-        margin-top: 370px;
-
-    }
-    .brand img {
-        margin-top: 25px;
-    }
+  width: 100%;
+  height: 100%;
 }
 
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
 
+  /* Center slide text vertically */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+/******* find-section ********/
+
+.find-nav h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  letter-spacing: -0.1px;
+  color: #0d0a19;
+}
+
+.btn-find {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: -0.1px;
+  color: #9a9ea7;
+}
+.active {
+  color: #0d0a19;
+}
+
+.popular {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  color: #9a9ea7;
+  margin-bottom: 50px;
+}
+.find-item {
+  margin-left: 25px;
+  margin-bottom: 30px;
+}
+
+.find-item img {
+  width: 50px;
+  height: 40px;
+}
+.car-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 27px;
+  color: #0d0a19;
+}
+
+.find-name {
+  margin-left: 20px;
+}
+.car-price {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  color: #9a9ea7;
+  margin-top: -18px;
+}
+
+.find-arrow {
+  margin-left: 50px;
+}
+.find-arrow img {
+  font-family: "Material Icons";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 22px;
+
+  text-align: center;
+
+  color: #7963f0;
+}
+
+@media screen and (max-width: 767px) {
+  .main-content h1 {
+    font-size: 38px;
+  }
+  .main-content p {
+    font-size: 16px;
+  }
+  .main-footer {
+    height: 110px;
+  }
+  .custom-btn {
+    width: 90%;
+    padding: 12px 0;
+  }
+
+  .brand {
+    margin-top: 370px;
+  }
+  .brand img {
+    margin-top: 25px;
+  }
+}
