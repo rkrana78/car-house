@@ -390,6 +390,7 @@ body {
 .find-item {
   margin-left: 25px;
   margin-bottom: 30px;
+  /* margin: 30px 0 50px 25px; */
 }
 
 .find-item img {
@@ -405,6 +406,7 @@ body {
 
 .find-name {
   margin-left: 20px;
+  margin-bottom: 30px;
 }
 .car-price {
   font-weight: 400;
@@ -416,23 +418,49 @@ body {
 }
 
 .find-arrow {
-  margin-left: 50px;
+  margin-left: 100px;
+  margin-top: 8px;
 }
 .find-arrow img {
-  font-family: "Material Icons";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 22px;
-  line-height: 22px;
-
-  text-align: center;
-
+  width: 20px;
+  height: 20px;
   color: #7963f0;
+}
+
+.other {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  letter-spacing: -0.1px;
+  color: #9a9ea7;
+  margin-bottom: 15px;
+}
+
+.others-item {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 35px;
+  color: #0d0a19;
+  
+}
+.others-name {
+  display: flex;
+  justify-content: space-between;
+}
+
+.others-name .car-price {
+  margin-top: 4px;
+}
+
+.another {
+  margin-top: 38px;
 }
 
 @media screen and (max-width: 767px) {
   .main-content h1 {
-    font-size: 38px;
+    font-size: 42px;
   }
   .main-content p {
     font-size: 16px;
@@ -450,5 +478,11 @@ body {
   }
   .brand img {
     margin-top: 25px;
+  }
+  .car-trending {
+    text-align: center;
+  }
+  .two-btn {
+    margin-bottom: 25px;
   }
 }
